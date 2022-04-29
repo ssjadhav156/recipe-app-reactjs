@@ -1,0 +1,40 @@
+.App {
+  font-family: 'Poppins', sans-serif;
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+.navigation{
+  display: flex;
+  padding: 5px 10%;
+  justify-content: space-between;
+}
+.title-logo a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #8b008b;
+  font-size: 1.5em;
+}
+.search-bar{
+  border: none;
+  padding: 5px;
+}
+.search-button{
+  border: none;
+  background: #8b008b;
+  padding: 5px;
+  color: #fff;
+}
+.recipes{
+  padding: 0 30%;
+}
+
+@media  screen and (max-width: 768px) {
+  .recipes{
+    padding: 0 10%;
+  }
+  .navigation{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
